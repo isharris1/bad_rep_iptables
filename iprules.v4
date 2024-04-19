@@ -21,6 +21,7 @@
 
 -A INPUT -s 89.168.0.0/24 -j DROP
 
+-A INPUT -s 91.90.0.0/16 -j DROP
 -A INPUT -s 91.92.0.0/16 -j DROP
 -A INPUT -s 91.207.0.0/16 -j DROP
 
@@ -31,6 +32,10 @@
 
 -A INPUT -s 109.74.0.0/16 -j DROP
 -A INPUT -s 109.123.0.0/16 -j DROP
+
+-A INPUT -s 115.231.0.0/16 -j DROP
+
+-A INPUT -s 122.96.0.0/16 -j DROP
 
 -A INPUT -s 135.125.0.0/16 -j DROP
 -A INPUT -s 135.181.0.0/16 -j DROP
@@ -55,6 +60,8 @@
 
 -A INPUT -s 193.32.0.0/16 -j DROP
 -A INPUT -s 193.138.0.0/16 -j DROP
+
+-A INPUT -s 220.250.0.0/16 -j DROP
 
 COMMIT
 # Completed on Thu Apr 18 16:01:08 2024
