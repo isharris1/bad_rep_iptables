@@ -17,6 +17,8 @@
 
 -A INPUT -s 82.102.0.0/16 -j DROP
 
+-A INPUT -s 84.54.0.0/16 -j DROP
+
 -A INPUT -s 87.236.176.0/24 -j DROP
 
 -A INPUT -s 89.168.0.0/24 -j DROP
