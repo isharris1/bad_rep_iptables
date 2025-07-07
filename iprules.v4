@@ -62,6 +62,8 @@
 -A INPUT -s 66.42.0.0/16 -j DROP
 -A INPUT -s 66.63.0.0/16 -j DROP
 
+-A INPUT -s 78.46.0.0/16 -j DROP
+
 -A INPUT -s 79.124.0.0/16 -j DROP
 -A INPUT -s 79.110.0.0/16 -j DROP
 
