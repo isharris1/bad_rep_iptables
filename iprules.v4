@@ -32,6 +32,7 @@
 
 -A INPUT -s 23.88.0.0/16 -j DROP
 -A INPUT -s 23.176.0.0/16 -j DROP
+-A INPUT -s 23.237.0.0/16 -j DROP
 
 -A INPUT -s 34.71.0.0/16 -j DROP
 
